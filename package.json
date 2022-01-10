@@ -1,6 +1,6 @@
 {
   "name": "ctx-api-eventloop",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Event loop for Context API.",
   "keywords": ["context", "ctx", "api", "event", "loop"],
   "repository": "github:dev2alert/node-ctx-api-eventloop",
