@@ -1,0 +1,24 @@
+{
+  "name": "ctx-api-eventloop",
+  "version": "1.0.0",
+  "description": "Event loop for Context API.",
+  "keywords": ["context", "ctx", "api", "event", "loop"],
+  "repository": "github:dev2alert/node-ctx-api-eventloop",
+  "publishConfig": {
+    "access": "public"
+  },
+  "main": "./dist/index.js",
+  "scripts": {
+    "start": "cross-env NODE_ENV=production node .",
+    "compile": "tsc",
+    "dev": "cross-env NODE_ENV=development tsc-watch --onSuccess \"node .\""
+  },
+  "author": "dev2alert",
+  "license": "MIT",
+  "devDependencies": {
+    "cross-env": "^7.0.3",
+    "@types/node": "^16.4.13",
+    "tsc-watch": "^4.6.0",
+    "ctx-api": "1.0.0"
+  }
+}
